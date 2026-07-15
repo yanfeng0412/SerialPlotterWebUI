@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-root: #f8f6f0;
+    --bg-app: #ffffff;
+    --bg-header: #ffffff;
+    --bg-panel: #ffffff;
+    --bg-subpanel: #ffffff;
+    --bg-control: #FDFBD4;
+    --border-main: #e8dccb;
+    --text-main: #5a3d20;
+    --text-muted: #8D5A2B;
+    --hover-bg: #fdfaf5;
+    --bg-input: #ffffff;
+    --chart-grid: #f0e6d8;
+    --chart-text: #8D5A2B;
+    --chart-tooltip-bg: #ffffff;
+    --chart-tooltip-border: #D47E30;
+    --color-primary: #D47E30;
+    --color-primary-hover: #b86a24;
+    --color-primary-text: #FFFFFF;
+    --color-active: #D47E30;
+  }
+  .dark {
+    --bg-root: #12121a;
+    --bg-app: #08080c;
+    --bg-header: #1a1a2e;
+    --bg-panel: #1a1a2e;
+    --bg-subpanel: #08080c;
+    --bg-control: #2d2d4d;
+    --border-main: #2a2a40;
+    --text-main: #e6e6f2;
+    --text-muted: #A3A3CC;
+    --hover-bg: #222238;
+    --bg-input: #0f0f16;
+    --chart-grid: #1f1f2e;
+    --chart-text: #A3A3CC;
+    --chart-tooltip-bg: #1a1a2e;
+    --chart-tooltip-border: #5C5C99;
+    --color-primary: #5C5C99;
+    --color-primary-hover: #4d4d80;
+    --color-primary-text: #FFFFFF;
+    --color-active: #CCCCFF;
+  }
+}
